@@ -10,7 +10,7 @@ async function sendEmail(type) {
     const body = textArea.value;
 
     // URL of your Google Cloud Function
-    const functionUrl = 'https://[REGION]-[PROJECT_ID].cloudfunctions.net/[FUNCTION_NAME]'; 
+    const functionUrl = 'https://us-south1-github-feedback.cloudfunctions.net/GitHub-Feedback-Function-01';
 
     try {
         // Send a POST request to the Google Cloud Function
