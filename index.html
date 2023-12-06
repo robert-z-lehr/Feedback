@@ -2,31 +2,45 @@
 <html>
 <head>
     <title>Feedback Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to an external CSS file -->
 </head>
 <body>
 
 <!-- Main heading for the feedback form -->
 <h1>GitHub Feedback Form</h1>
 
+<!-- Button to go back to the feedback form directory -->
+<div class="back-button">
+    <a href="https://github.com/robert-z-lehr/Feedback/tree/main">
+        <button class="back-to-repo">Back to Feedback Form GitHub Repository</button>
+    </a>
+</div>
+
 <!-- Feedback section with a textarea and submit button -->
-<div>
+<div class="feedback-section">
     <h2>Feedback</h2>
     <textarea id="feedback" rows="4" cols="50"></textarea><br>
     <button id="submitFeedback">Submit Feedback</button>
 </div>
 
 <!-- Ideas section with a textarea and submit button -->
-<div>
+<div class="ideas-section">
     <h2>Ideas</h2>
     <textarea id="ideas" rows="4" cols="50"></textarea><br>
     <button id="submitIdeas">Submit Ideas</button>
 </div>
 
 <!-- Questions section with a textarea and submit button -->
-<div>
+<div class="questions-section">
     <h2>Questions</h2>
     <textarea id="questions" rows="4" cols="50"></textarea><br>
     <button id="submitQuestions">Submit Questions</button>
+</div>
+
+<!-- Instructions for setting up the Google Cloud script -->
+<div class="instructions">
+    <h2>Setup Instructions</h2>
+    <p>Refer to the README.md in this directory for detailed instructions on setting up the Google Cloud script and configuring this feedback form.</p>
 </div>
 
 <!-- Link to the external JavaScript file for handling button click events -->
